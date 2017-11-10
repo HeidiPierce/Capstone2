@@ -1,0 +1,82 @@
+/*Table of contents
+1. Header
+2. Learning section
+3. Events section
+4. Coursework section
+5. Thesis section
+6. Footer
+7. Media Queries
+/*end*/
+
+/*Global styles*/
+body {
+  background-color: white;
+  box-sizing: border-box;
+  font-family: 'Poppins', Sans-Serif;
+  font-size: 14px;
+}
+.collapse {
+  display: inline-block;
+}
+.nav>li>a {
+  display: inline-block;
+  color: white;
+}
+.nav>li:first-child {
+  padding-top: 1rem;
+}
+.nav>li:first-child>a {
+    color: #22363E;
+}
+.nav li {
+  margin: 1rem;
+}
+.navbar-header {
+  width: 100%;
+}
+.navbar-header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+ul.nav.navbar-nav {
+  min-width: 100%;
+}
+.logo a {
+  font-family: 'Abril Fatface', Cursive;
+  font-size: 3.5rem;
+  text-decoration: none;
+}
+.logo img {
+  height: 4.5rem;
+}
+.logo span {
+  color: #F3B562;
+
+}
+
+.btn-1 {
+  background-color: #F3B562;
+}
+.btn-2 {
+  background-color: #97CCC7;
+}
+.btn-3 {
+  background-color: #22363E;
+}
+.btn-4 {
+  background-color: #DB5749;
+}
+
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .nav>li:first-child {
+      padding-top: 0;
+    }
+    .nav img {
+      height: 5.5rem;
+    }
+    .nav li {
+      padding: 0 2rem;
+    }
+
+  }
